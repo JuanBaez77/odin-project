@@ -1,0 +1,67 @@
+* {
+    font-size: 22px;
+    font-family: monospace;;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    background-color: gainsboro;
+    margin: auto;
+}
+
+header ul a{
+    font-size: 0.7em;
+}
+
+.recipes-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    height: 50vh;
+    width: 40vw;
+    text-align: center;
+    border: 2px solid black;
+    background-image: url(https://cdn0.uncomo.com/es/posts/0/6/0/como_hacer_unos_noquis_de_boniato_54060_orig.jpg);
+}
+
+.content.m {
+    background-image: url(https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/7fd9e77b-3396-49f3-be08-fceef56376bf/Derivates/8a096b0f-382a-47ac-b11a-62b630e0e59e.jpg);
+}
+
+.content.c {
+    background-image: url(https://assets.elgourmet.com/wp-content/uploads/2023/03/f196338f010801d100b4fe4558d3e06e_3_3_photo-1024x683.png.webp);
+}
+
+.content.s {
+    background-image: url(https://nutritionrefined.com/wp-content/uploads/2023/08/homemade-garden-salad-featured.jpg);
+}
+
+.content:hover {
+    transform: scale(1.2);
+}
+
+#gnoqui, 
+#milanesa,
+#chicken,
+#salad {
+    margin: auto;
+    color: black;
+    font-size: 30px;
+    background: gainsboro;
+    font-weight: bold;
+}
